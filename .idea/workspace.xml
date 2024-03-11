@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0714442d-7cc1-4ce6-9d4f-df1abf94bb4e" name="更改" comment="" />
+    <list default="true" id="0714442d-7cc1-4ce6-9d4f-df1abf94bb4e" name="更改" comment="添加maven，实现了simHash、海明距离、相似度的大致计算">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HammingAndSimilarityUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HammingDistanceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SimHashUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3222004639.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3222004639.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/HammingDistanceUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/SimHashUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/TxtHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/TxtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TxtUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\CodingTools\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../CodingTools/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="C:\CodingTools\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2dVJeqJWHfii1JVjRLeLv4ymw05" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,9 +60,46 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/26441/Desktop/3222004639",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RunManager" selected="应用程序.SimHashUtils">
+    <configuration name="SimHashUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.SimHashUtils" />
+      <module name="3222004639" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.TxtUtils" />
+      <module name="3222004639" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.SimHashUtils" />
+        <item itemvalue="应用程序.TxtUtils" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -28,7 +108,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710087410956</updated>
+      <workItem from="1710087413166" duration="56000" />
+      <workItem from="1710087484244" duration="317000" />
+      <workItem from="1710087846281" duration="1140000" />
+      <workItem from="1710135216914" duration="19492000" />
     </task>
+    <task id="LOCAL-00001" summary="完成txt读取与写入功能">
+      <created>1710159257101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710159257101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成txt读取与写入功能" />
+    <MESSAGE value="添加maven，实现了simHash、海明距离、相似度的大致计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加maven，实现了simHash、海明距离、相似度的大致计算" />
   </component>
 </project>
