@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="plagiarismChecker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/plagiarismChecker_jar</output-path>
+    <root id="archive" name="plagiarismChecker.jar">
+      <element id="module-output" name="plagiarismChecker" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../CodingTools/maven-repository/com/hankcs/hanlp/portable-1.5.4/hanlp-portable-1.5.4.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.hankcs:hanlp:portable-1.5.4" />
+    </root>
+  </artifact>
+</component>

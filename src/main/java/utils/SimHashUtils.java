@@ -8,9 +8,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
 public class SimHashUtils {
-    public static void main(String[] args) {
-        System.out.println(getSimHash("你好"));
-    }
     /**
      * 用MD5计算hash值
      * @param str 需要计算hash值的字符串

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="3222004639" />
+        <module name="plagiarismChecker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="3222004639" target="1.8" />
+      <module name="plagiarismChecker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

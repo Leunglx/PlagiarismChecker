@@ -40,7 +40,7 @@ public class TxtUtils {
      */
     public static void writeTxt(double content, String path) {
         // 将浮点数格式化为两位小数
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("0.00");
         String formattedContent = df.format(content);
 
         try {
@@ -48,6 +48,7 @@ public class TxtUtils {
             writer.write(formattedContent);
             writer.write("\r\n"); // 换行
             writer.close(); // 关闭资源
+            System.out.println("重复率已写入文件");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

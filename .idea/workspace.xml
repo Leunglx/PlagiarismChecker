@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="plagiarismChecker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0714442d-7cc1-4ce6-9d4f-df1abf94bb4e" name="更改" comment="添加maven，实现了simHash、海明距离、相似度的大致计算">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HammingAndSimilarityUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HammingDistanceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SimHashUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/plagiarismChecker_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ChecekFilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3222004639.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3222004639.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/HammingDistanceUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/SimHashUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TxtHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TxtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TxtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3222004639.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plagiarismChecker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/plagiarismCheckerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/HammingDistanceUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SimHashUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SimHashUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TxtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TxtUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/26441/Desktop/3222004639",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/26441/Desktop/3222004639&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.SimHashUtils">
+}</component>
+  <component name="RunManager" selected="JAR 应用程序.3222004639.jar">
     <configuration name="SimHashUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.SimHashUtils" />
-      <module name="3222004639" />
+      <module name="plagiarismChecker" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="utils.*" />
@@ -82,7 +86,7 @@
     </configuration>
     <configuration name="TxtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.TxtUtils" />
-      <module name="3222004639" />
+      <module name="plagiarismChecker" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="utils.*" />
@@ -93,8 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="plagiarismCheckerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="plagiarismCheckerMain" />
+      <module name="plagiarismChecker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3222004639.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/3222004639_jar/3222004639.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR 应用程序.3222004639.jar" />
+        <item itemvalue="应用程序.plagiarismCheckerMain" />
         <item itemvalue="应用程序.SimHashUtils" />
         <item itemvalue="应用程序.TxtUtils" />
       </list>
@@ -111,7 +128,14 @@
       <workItem from="1710087413166" duration="56000" />
       <workItem from="1710087484244" duration="317000" />
       <workItem from="1710087846281" duration="1140000" />
-      <workItem from="1710135216914" duration="19492000" />
+      <workItem from="1710135216914" duration="19614000" />
+      <workItem from="1710227065537" duration="33000" />
+      <workItem from="1710227153478" duration="751000" />
+      <workItem from="1710228331493" duration="2668000" />
+      <workItem from="1710231873924" duration="104000" />
+      <workItem from="1710231986899" duration="2499000" />
+      <workItem from="1710234512386" duration="2296000" />
+      <workItem from="1710236837462" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="完成txt读取与写入功能">
       <created>1710159257101</created>
@@ -120,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710159257101</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加maven，实现了simHash、海明距离、相似度的大致计算">
+      <created>1710176483147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710176483147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
