@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0714442d-7cc1-4ce6-9d4f-df1abf94bb4e" name="更改" comment="添加maven，实现了simHash、海明距离、相似度的大致计算">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ChecekFilePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ChecekFilePath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\CodingTools\maven-repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../CodingTools/apache-maven-3.8.8" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="C:\CodingTools\apache-maven-3.8.8\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -127,7 +127,7 @@
       <workItem from="1710231986899" duration="2499000" />
       <workItem from="1710234512386" duration="2296000" />
       <workItem from="1710236837462" duration="848000" />
-      <workItem from="1710244306890" duration="140000" />
+      <workItem from="1710244306890" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="完成txt读取与写入功能">
       <created>1710159257101</created>
