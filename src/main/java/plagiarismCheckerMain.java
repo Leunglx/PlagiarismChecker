@@ -16,7 +16,5 @@ public class plagiarismCheckerMain {
         double similarity = HammingAndSimilarityUnit.SimilarityResult(simHash1, simHash2);
         // 将相似度写入txt
         TxtUtils.writeTxt(similarity, resultTxtPath);
-        // 退出程序
-        System.exit(0);
     }
 }
